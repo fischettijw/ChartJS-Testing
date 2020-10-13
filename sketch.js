@@ -1,3 +1,14 @@
+//
+
+function setup() {
+    createCanvas(50, 50);
+    background('red');
+    // move canvas down and right
+    select('canvas').position(60, 60);
+}
+
+
+
 let d = [45, 10, 45, 2, 20, 30, 45];
 let ctx = document.getElementById('myChart').getContext('2d');
 let chart = new Chart(ctx, {
